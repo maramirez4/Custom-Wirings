@@ -8,8 +8,8 @@ This project documents a custom passive wiring system developed for a Jackson JD
 
 The system combines:
 
-* 2 humbuckers
-* 1 middle single-coil pickup
+* 2 humbuckers - bridge and neck positions
+* 1 single-coil pickup - middle position
 * 5-way 4P5T superswitch
 * 5-way 4P5T rotary switch
 * 2 push-pull potentiometers
@@ -20,24 +20,22 @@ The system combines:
 
 ## Switching System
 
-The wiring system provides multiple pickup and coil configurations when working both the main 5-way superswitch in tandem with the secondary 4P5T rotary switch, including:
+The wiring system provides multiple pickup and coil configurations when working the main 5-way superswitch, including:
 
 * Bridge humbucker series
 * Neck humbucker series
-* Bridge humbucker parallel
 * Neck humbucker parallel
 * Inner and outer coils
 * Neck/bridge combinations
 * Single-coil simulation for both humbuckers
-* Middle pickup combinations - isolated & parallel to selection (in & out-of-phase)
 
-As for the rotary switch, it provides the following configurations:
+As for the rotary switch, it provides the following configurations when used in tandem with the main superswitch:
 
 | Position | Function                              |
 | -------- | ------------------------------------- |
 | -2       | Bridge parallel                       |
-| -1       | Middle only                           |
-| 0        | Bridge series                         |
+| -1       | Middle only - superswitch is bypassed |
+| 0        | Bridge series (default configuration) |
 | +1       | Middle parallel to superswitch output |
 | +2       | Middle parallel & out-of-phase        |
 
