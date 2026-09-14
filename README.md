@@ -1,2 +1,68 @@
-# JDR94-Custom-Wiring
-Custom passive guitar wiring system designed for my main electric guitar with 2 humbuckers (bridge &amp; neck) and 1 single coil (middle). some features include: a main 4P5T superswitch, a 4P5T rotary switch, two push/pull controls, single-coil simulation, series/parallel toggle for humbuckers, out-of-phase, treble bleed, killswitch and blower switch.
+# JDR94 Custom Wiring — V3.3
+
+An open guitar electronics project designed for my main guitar.
+
+## Overview
+
+This project documents a custom passive wiring system developed for a Jackson JDR94 electric guitar with two humbuckers and one single coil.
+
+The system combines:
+
+* 2 humbuckers
+* 1 middle single-coil pickup
+* 5-way 4P5T superswitch
+* 5-way 4P5T rotary switch
+* 2 push-pull potentiometers
+* Treble-bleed circuit
+* Single-coil simulation circuit with passive filtering and pickup compensation
+* Latching blower switch - it engages the bridge pickup directly to the output
+* Momentary killswitch - cut offs the signal when pressed, fun to use in certain contexts
+
+## Switching System
+
+The wiring system provides multiple pickup and coil configurations when working both the main 5-way superswitch in tandem with the secondary 4P5T rotary switch, including:
+
+* Bridge humbucker series
+* Neck humbucker series
+* Bridge humbucker parallel
+* Neck humbucker parallel
+* Inner and outer coils
+* Neck/bridge combinations
+* Single-coil simulation for both humbuckers
+* Middle pickup combinations - isolated & parallel to selection (in & out-of-phase)
+
+As for the rotary switch, it provides the following configurations:
+
+| Position | Function                              |
+| -------- | ------------------------------------- |
+| -2       | Bridge parallel                       |
+| -1       | Middle only                           |
+| 0        | Bridge series                         |
+| +1       | Middle parallel to superswitch output |
+| +2       | Middle parallel & out-of-phase        |
+
+For the complete switching logic and circuit details, see the schematic.
+
+## Schematic
+
+**[Download the complete V3.3 schematic](./JDR94_Custom_Wiring_V3.3.pdf)**
+
+The schematic includes the complete wiring diagram, switching logic, component values, pickup configurations, and bill of materials.
+
+## Version
+
+**V3.3**
+
+Designed and documented by **Marco Ramírez**.
+
+## License
+
+This hardware design is released under the **CERN Open Hardware Licence Version 2 – Permissive (CERN-OHL-P-2.0)**.
+
+You are free to use, study, modify, build, and distribute designs and products based on this work, subject to the terms of the license.
+
+See the `LICENSE` file for the complete license text.
+
+## Disclaimer
+
+This project is provided as-is for educational, experimental, and personal use. Build and modify the circuit at your own risk.
