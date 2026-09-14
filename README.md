@@ -1,26 +1,26 @@
 # JDR94 Custom Wiring — V3.3
 
-An open guitar electronics project designed for my main guitar.
+An open guitar electronics project developed for a Jackson JDR94 electric guitar.
 
 ## Overview
 
-This project documents a custom passive wiring system developed for a Jackson JDR94 electric guitar with two humbuckers and one single coil.
+This project documents a custom passive wiring system design for electric guitars with two humbuckers and one single-coil pickup.
 
 The system combines:
 
-* 2 humbuckers - bridge and neck positions
-* 1 single-coil pickup - middle position
+* 2 humbuckers — bridge and neck positions
+* 1 single-coil pickup — middle position
 * 5-way 4P5T superswitch
 * 5-way 4P5T rotary switch
 * 2 push-pull potentiometers
 * Treble-bleed circuit
 * Single-coil simulation circuit with passive filtering and pickup compensation
-* Latching blower switch - it engages the bridge pickup directly to the output
-* Momentary killswitch - cut offs the signal when pressed, fun to use in certain contexts
+* Latching blower switch — engages the bridge pickup directly to the output
+* Momentary killswitch — cuts the signal when pressed, useful in certain playing contexts
 
 ## Switching System
 
-The wiring system provides multiple pickup and coil configurations when working the main 5-way superswitch, including:
+The wiring system provides multiple pickup and coil configurations through the main 5-way superswitch, including:
 
 * Bridge humbucker series
 * Neck humbucker series
@@ -29,15 +29,15 @@ The wiring system provides multiple pickup and coil configurations when working 
 * Neck/bridge combinations
 * Single-coil simulation for both humbuckers
 
-As for the rotary switch, it provides the following configurations when used in tandem with the main superswitch:
+The rotary switch provides the following configurations when used in tandem with the main superswitch:
 
 | Position | Function                              |
 | -------- | ------------------------------------- |
 | -2       | Bridge parallel                       |
-| -1       | Middle only - superswitch is bypassed |
+| -1       | Middle only — superswitch is bypassed |
 | 0        | Bridge series (default configuration) |
 | +1       | Middle parallel to superswitch output |
-| +2       | Middle parallel & out-of-phase        |
+| +2       | Middle parallel and out-of-phase      |
 
 For the complete switching logic and circuit details, see the schematic.
 
@@ -49,9 +49,9 @@ The schematic includes the complete wiring diagram, switching logic, component v
 
 ## Version
 
-**V3.3**
+**V3.3** is the current documented version of the design.
 
-Designed and documented by **Marco Ramírez**.
+Designed and documented by **Marco Antonio Ramírez**.
 
 ## License
 
