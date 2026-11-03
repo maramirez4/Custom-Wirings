@@ -20,7 +20,7 @@ This switching system provides 42 different sounds across the different superswi
 
 ## Schematic
 
-**[Download the complete V4.0 schematic](./JDR94 Custom V4.0 (2026-10-30).pdf)**
+**[Download the complete V4.0 schematic](JDR94%20Custom%20V4.0%20%282026-10-30%29.pdf)**
 
 The wiring system provides multiple pickup and coil configurations through the main 5-way superswitch, including:
 
