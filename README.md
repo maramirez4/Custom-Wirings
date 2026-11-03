@@ -1,55 +1,56 @@
-# JDR94 Custom Wiring — V3.3
+# JDR94 Custom Wiring — V4.0
 
 An open guitar electronics project developed for a Jackson JDR94 electric guitar.
 
 ## Overview
 
-This project documents a custom passive wiring system design for electric guitars with two humbuckers and one single-coil pickup.
-
-The system combines:
+This project documents a custom passive wiring system design for electric guitar that combines:
 
 * 2 humbuckers — bridge and neck positions
-* 1 single-coil pickup — middle position
-* 5-way 4P5T superswitch
-* 5-way 4P5T rotary switch
-* 2 push-pull potentiometers
-* Treble-bleed circuit
+* 1 mini-humbucker pickup — middle position
+* 5-way 3-pole superswitch
+* 6-way dual-axis ultraswitch
+* 2 push-pull potentiometers: one switch is for single-coil simulation and the other is to reverse the phase of the middle pickup
 * Single-coil simulation circuit with passive filtering and pickup compensation
 * Latching blower switch — engages the bridge pickup directly to the output
 * Momentary killswitch — cuts the signal when pressed, useful in certain playing contexts
+* Treble-bleed circuit
 
-## Switching System
+This switching system provides 42 different sounds across the different superswitch/ultraswitch inner workings. 
+
+## Schematic
+
+**[Download the complete V4.0 schematic](./JDR94 Custom V4.0 (2026-10-30).pdf)**
 
 The wiring system provides multiple pickup and coil configurations through the main 5-way superswitch, including:
 
 * Bridge humbucker series
 * Neck humbucker series
+* Inner and outer coils in parallel
+* Superstrat middle pickup configurations 
+* Neck/bridge combinations (series and parallel)
+* Bridge humbucker parallel
 * Neck humbucker parallel
-* Inner and outer coils
-* Neck/bridge combinations
-* Single-coil simulation for both humbuckers
+* Single-coil simulation for both humbuckers and the mini-humbucker
 
-The rotary switch provides the following configurations when used in tandem with the main superswitch:
+The dual-axis ultraswitch provides the following configuration banks when used in tandem with the main superswitch:
 
 | Position | Function                              |
 | -------- | ------------------------------------- |
-| -2       | Bridge parallel                       |
-| -1       | Middle only — superswitch is bypassed |
-| 0        | Bridge series (default configuration) |
-| +1       | Middle parallel to superswitch output |
-| +2       | Middle parallel and out-of-phase      |
+|  1       | Inner/Outer coils & both humbuckers   |
+|  2       | Superstrat mode: middle in splits     |
+|  3       | Parallel set: bridge, neck or both    |
+|  4       | Same as 1 but with the middle pickup  |
+|  5       | Mirrored splits: both humbuckers      |
+|  6       | Same as 3 but with the middle pickup  |
 
 For the complete switching logic and circuit details, see the schematic.
-
-## Schematic
-
-**[Download the complete V3.3 schematic](./JDR94_Custom_Wiring_V3.3.pdf)**
 
 The schematic includes the complete wiring diagram, switching logic, component values, pickup configurations, and bill of materials.
 
 ## Version
 
-**V3.3** is the current documented version of the design.
+**V4.0** is the current documented version of the design.
 
 Designed and documented by **Marco Antonio Ramírez**.
 
