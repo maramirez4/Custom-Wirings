@@ -8,7 +8,7 @@ This project documents a custom passive wiring system design for electric guitar
 
 * 2 humbuckers — bridge and neck positions
 * 1 mini-humbucker pickup — middle position
-* 5-way 3-pole superswitch
+* 5-way 6-pole superswitch
 * 6-way dual-axis ultraswitch
 * 2 push-pull potentiometers: one switch is for single-coil simulation and the other is to reverse the phase of the middle pickup
 * Single-coil simulation circuit with passive filtering and pickup compensation
